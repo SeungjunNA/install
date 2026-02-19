@@ -7,6 +7,7 @@ spec:
     storage: 1Gi
   accessModes:
     - ReadWriteMany
+  storageClassName: ""
   nfs:
     server: 192.168.0.88
     path: /file-storage/monitoring/grafana
