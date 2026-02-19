@@ -8,5 +8,5 @@ spec:
   accessModes:
     - ReadWriteMany
   nfs:
-    server: 192.168.56.30
+    server: 192.168.0.88
     path: /file-storage/monitoring/grafana
