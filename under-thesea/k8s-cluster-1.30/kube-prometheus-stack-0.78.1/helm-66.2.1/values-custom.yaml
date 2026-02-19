@@ -58,7 +58,7 @@ prometheus:
     storageSpec:
       volumeClaimTemplate:
         spec:
-          #storageClassName: "storageClassName"
+          storageClassName: ""
           accessModes: ["ReadWriteOnce"]
           resources:
             requests:
